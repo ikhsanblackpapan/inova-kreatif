@@ -1,0 +1,29 @@
+# Ignore semua folder WordPress core
+/wp-admin/
+/wp-includes/
+wp-config.php
+index.php
+readme.html
+license.txt
+xmlrpc.php
+/wp-*.php
+PaxHeaders*
+
+
+# Ignore plugins dan themes default
+/wp-content/plugins/
+/wp-content/themes/twenty*/
+
+# Hanya izinkan child theme buatanmu
+!/wp-content/themes/inova-kreatif-child/**
+
+# Ignore uploads
+/wp-content/uploads/
+
+# Tapi izinkan folder foto tertentu
+!/wp-content/uploads/inova-foto1.jpg
+!/wp-content/uploads/inova-foto2.jpg
+
+# File lain
+*.log
+.htaccess
